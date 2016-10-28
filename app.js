@@ -17,20 +17,23 @@ function get(lat,long){
     });
 
     response.on('end',function(){
-  
+
       if(response.statusCode === 200) {
         try{
           var weatherJSON = JSON.parse(body);
           printInfo(lat, long, weatherJSON.currently.temperature);
         }catch(error){
+          //Parsing error
           console.error(error.message);
         }
       }
     });
 
+    //connection error
+    response.on('error', function(error){
+      console.error(error.message);
+    });
+
 
   });
 }
-
-
-get(-23.627,-46.553);
