@@ -5,7 +5,7 @@ A command-line node.js application for weather information ( study purpose ).
 Just install it with npm by passing the following:
 
 ```sh
-$ npm install -g .
+$ npm install weatherist
 ```
 
 
