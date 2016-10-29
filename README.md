@@ -5,7 +5,10 @@ A command-line node.js application for weather information ( study purpose ).
 Just install it with npm by passing the following:
 
 ```sh
-$ npm install -g .```
+$ npm install -g .
+```
+
+
 
 ### Usage
 Just pass a valid coordinate as arguments on the CLI to get the response like:
