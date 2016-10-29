@@ -1,0 +1,28 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "A simple weather CLI module built with node.js",
+  "bin" : {
+    "node-weather": "./bin/node-weather.js"
+  },
+  "main": "./lib/parse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hendriq/nodeweather-cli.git"
+  },
+  "keywords": [
+    "weather",
+    "cli",
+    "command",
+    "line"
+  ],
+  "author": "Henrique Voni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hendriq/nodeweather-cli/issues"
+  },
+  "homepage": "https://github.com/hendriq/nodeweather-cli#readme"
+}
