@@ -1,6 +1,6 @@
 {
   "name": "weatherist",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple weather CLI module built with node.js",
   "bin" : {
     "weatherist": "./bin/weatherist.js"
