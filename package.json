@@ -1,9 +1,9 @@
 {
-  "name": "weather",
+  "name": "weatherist",
   "version": "1.0.0",
   "description": "A simple weather CLI module built with node.js",
   "bin" : {
-    "node-weather": "./bin/node-weather.js"
+    "weatherist": "./bin/weatherist.js"
   },
   "main": "./lib/parse.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hendriq/nodeweather-cli.git"
+    "url": "git+https://github.com/hendriq/weatherist.git"
   },
   "keywords": [
     "weather",
@@ -22,7 +22,7 @@
   "author": "Henrique Voni",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hendriq/nodeweather-cli/issues"
+    "url": "https://github.com/hendriq/weatherist/issues"
   },
-  "homepage": "https://github.com/hendriq/nodeweather-cli#readme"
+  "homepage": "https://github.com/hendriq/weatherist#readme"
 }
