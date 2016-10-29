@@ -16,3 +16,6 @@ Just pass a valid coordinate as arguments on the CLI to get the response like:
 ```sh
 $ node-weather -23.6998 -46.5501
 ```
+
+### Collaboration
+Thanks to @darlanmendonca for the help and ideas.
