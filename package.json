@@ -27,6 +27,10 @@
   },
   "homepage": "https://github.com/hendriq/weatherist#readme",
   "devDependencies": {
-    "eslint": "^3.9.1"
+    "eslint": "^3.9.1",
+    "request-promise": "^4.1.1"
+  },
+  "dependencies": {
+    "request": "^2.76.0"
   }
 }
