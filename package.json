@@ -2,12 +2,13 @@
   "name": "weatherist",
   "version": "1.0.2",
   "description": "A simple weather CLI module built with node.js",
-  "bin" : {
+  "bin": {
     "weatherist": "./bin/weatherist.js"
   },
   "main": "./lib/parse.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "scripts/lint.sh"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/hendriq/weatherist/issues"
   },
-  "homepage": "https://github.com/hendriq/weatherist#readme"
+  "homepage": "https://github.com/hendriq/weatherist#readme",
+  "devDependencies": {
+    "eslint": "^3.9.1"
+  }
 }
